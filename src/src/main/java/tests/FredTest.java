@@ -11,7 +11,7 @@ public class FredTest {
 	
 	@Test
 	public void testGetName() {
-        Person fred = new Fred("Fred", 30, 175.0, 75.0);
+        Person fred = new Fred("Fred", "Marques", 30, 175.0, 75.0);
         assertEquals("Fred", fred.getFirstName());
     }
 
