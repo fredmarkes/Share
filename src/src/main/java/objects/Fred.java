@@ -10,12 +10,12 @@ public class Fred implements Person {
 
 	public Fred() {
 	}
-	public Fred(String string, int i, double d, double e) {
-		setFirstName("Frederico");
-		setLastName("Marques");
-		setAge(33);
-		setHeight(172.2);
-		setWeight(54.4);
+	public Fred(String firstName, String lastName, int age, double height, double weight) {
+		setFirstName(firstName);
+		setLastName(lastName);
+		setAge(age);
+		setHeight(height);
+		setWeight(weight);
 	}
 
 	public void setFirstName(String firstName) {
